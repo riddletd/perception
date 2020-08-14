@@ -1,0 +1,11 @@
+:host {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+  }
+  

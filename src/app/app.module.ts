@@ -14,6 +14,10 @@ import { HeaderMenuComponent } from './components/center-column/header/menu/menu
 import { HeaderCartComponent } from './components/center-column/header/cart/cart.component';
 import { TilesComponent } from './components/center-column/content/tiles/tiles.component';
 import { TileComponent } from './components/center-column/content/tiles/tile/tile.component';
+import { TileImageComponent } from './components/center-column/content/tiles/tile/tile-image/tile-image.component';
+import { TileDescriptionComponent } from './components/center-column/content/tiles/tile/tile-description/tile-description.component';
+import { ProductTextComponent } from './components/center-column/content/tiles/tile/tile-description/product-text/product-text.component';
+import { PriceTextComponent } from './components/center-column/content/tiles/tile/tile-description/price-text/price-text.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +31,10 @@ import { TileComponent } from './components/center-column/content/tiles/tile/til
     HeaderCartComponent,
     TilesComponent,
     TileComponent,
+    TileImageComponent,
+    TileDescriptionComponent,
+    ProductTextComponent,
+    PriceTextComponent,
   ],
   imports: [
     BrowserModule,

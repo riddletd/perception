@@ -1,0 +1,14 @@
+:host {
+  height: 66.666%;
+  width: 100%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    transition: .2s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
