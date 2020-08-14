@@ -3,16 +3,36 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/center-column/header/header.component';
+import { ContentComponent } from './components/center-column/content/content.component';
+import { FooterComponent } from './components/center-column/footer/footer.component';
+import { CenterColumnComponent } from './components/center-column/center-column.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule } from '@angular/material/icon';
+import { HeaderTitleComponent } from './components/center-column/header/title/title.component';
+import { HeaderMenuComponent } from './components/center-column/header/menu/menu.component';
+import { HeaderCartComponent } from './components/center-column/header/cart/cart.component';
+import { TilesComponent } from './components/center-column/content/tiles/tiles.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    ContentComponent,
+    FooterComponent,
+    CenterColumnComponent,
+    HeaderTitleComponent,
+    HeaderMenuComponent,
+    HeaderCartComponent,
+    TilesComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatIconModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
