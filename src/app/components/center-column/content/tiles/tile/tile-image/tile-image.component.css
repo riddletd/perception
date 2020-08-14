@@ -1,14 +1,18 @@
 :host {
   height: 66.666%;
   width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 5px 5px 0px 0px;
 }
 
 img {
-    height: 100%;
-    width: 100%;
-    transition: .2s;
+  height: 100%;
+  width: 100%;
+  transition: 0.2s;
+  border-radius: 5px 5px 0px 0px;
 }
 
 img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
