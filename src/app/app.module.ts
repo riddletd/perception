@@ -13,6 +13,7 @@ import { HeaderTitleComponent } from './components/center-column/header/title/ti
 import { HeaderMenuComponent } from './components/center-column/header/menu/menu.component';
 import { HeaderCartComponent } from './components/center-column/header/cart/cart.component';
 import { TilesComponent } from './components/center-column/content/tiles/tiles.component';
+import { TileComponent } from './components/center-column/content/tiles/tile/tile.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { TilesComponent } from './components/center-column/content/tiles/tiles.c
     HeaderMenuComponent,
     HeaderCartComponent,
     TilesComponent,
+    TileComponent,
   ],
   imports: [
     BrowserModule,
