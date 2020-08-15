@@ -1,0 +1,13 @@
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  overflow: hidden;
+  height: 800px;
+}
+
+img {
+  max-width: 100%;
+  min-width: 100%;
+}

@@ -3,17 +3,7 @@
   <app-header-title siteTitle="Perception"></app-header-title>
   <app-header-cart></app-header-cart>
 </app-header>
-<app-center-column>
-  <app-content>
-    <app-tiles>
-      <app-tile *ngFor="let number of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]">
-        <app-tile-image url="/assets/hoodie.jpg"></app-tile-image>
-        <app-tile-description>
-          <app-product-text text="Champion Hoodie"></app-product-text>
-          <app-price-text price="3.99"></app-price-text>
-        </app-tile-description>
-      </app-tile>
-    </app-tiles>
-  </app-content>
-  <app-footer></app-footer>
-</app-center-column>
+<app-content>
+  <router-outlet></router-outlet>
+</app-content>
+<app-footer></app-footer>
