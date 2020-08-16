@@ -6,11 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
-  urls = [
-    '/assets/surf_1.jpeg',
-    '/assets/surf_2.png',
-    '/assets/surf_3.jpg',
-  ];
+  billboard = '/assets/Malachi_1.jpeg';
+  matrix = ['/assets/surf_1.jpeg', '/assets/Malachi_2.jpeg'];
 
   constructor() {}
 

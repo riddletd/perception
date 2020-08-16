@@ -22,6 +22,11 @@ import { ProductTextComponent } from './components/content/center-column/tiles/t
 import { PriceTextComponent } from './components/content/center-column/tiles/tile/tile-description/price-text/price-text.component';
 import { ImageMatrixComponent } from './components/content/image-matrix/image-matrix.component';
 import { BillboardComponent } from './components/content/billboard/billboard.component';
+import { FooterParagraphHeaderComponent } from './components/footer/footer-paragraph-header/footer-paragraph-header.component';
+import { FooterParagraphComponent } from './components/footer/footer-paragraph/footer-paragraph.component';
+import { SocialMediaComponent } from './components/footer/social-media/social-media.component';
+import { SubscriptionFormComponent } from './components/footer/subscription-form/subscription-form.component';
+import { FooterSectionComponent } from './components/footer/footer-section/footer-section.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +48,11 @@ import { BillboardComponent } from './components/content/billboard/billboard.com
     HomeComponent,
     ImageMatrixComponent,
     BillboardComponent,
+    FooterParagraphHeaderComponent,
+    FooterParagraphComponent,
+    SocialMediaComponent,
+    SubscriptionFormComponent,
+    FooterSectionComponent,
   ],
   imports: [
     BrowserModule,

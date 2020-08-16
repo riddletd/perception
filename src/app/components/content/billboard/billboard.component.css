@@ -1,0 +1,31 @@
+:host {
+  position: relative;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.text {
+  width: 1500px;
+  position: absolute;
+  color: #ffffff;
+  font-family: 'DM Serif Display';
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.text div {
+    color: black
+}
