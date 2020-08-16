@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
+import { MatMenuModule } from '@angular/material/menu';
 import { ShopComponent } from './components/pages/shop/shop.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -27,6 +28,8 @@ import { FooterParagraphComponent } from './components/footer/footer-paragraph/f
 import { SocialMediaComponent } from './components/footer/social-media/social-media.component';
 import { SubscriptionFormComponent } from './components/footer/subscription-form/subscription-form.component';
 import { FooterSectionComponent } from './components/footer/footer-section/footer-section.component';
+import { CartComponent } from './components/pages/cart/cart.component';
+import { ItemComponent } from './components/pages/item/item.component';
 
 @NgModule({
   declarations: [
@@ -53,12 +56,15 @@ import { FooterSectionComponent } from './components/footer/footer-section/foote
     SocialMediaComponent,
     SubscriptionFormComponent,
     FooterSectionComponent,
+    CartComponent,
+    ItemComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
+    MatMenuModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

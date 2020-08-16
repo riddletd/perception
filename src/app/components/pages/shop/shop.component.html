@@ -1,6 +1,9 @@
 <app-center-column>
   <app-tiles>
-    <app-tile *ngFor="let number of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]">
+    <app-tile
+      *ngFor="let number of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+      [routerLink]="['/item', number]"
+    >
       <app-tile-image url="/assets/hoodie.jpg"></app-tile-image>
       <app-tile-description>
         <app-product-text text="Champion Hoodie"></app-product-text>
